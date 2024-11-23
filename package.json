@@ -138,6 +138,11 @@
                     "scope": "resource",
                     "type": "boolean"
                 },
+                "mypy-type-checker.daemonStatusFile": {
+                    "markdownDescription": "%settings.daemonStatusFile.description%",
+                    "scope": "resource",
+                    "type": "string"
+                },
                 "mypy-type-checker.reportingScope": {
                     "default": "file",
                     "markdownDescription": "%settings.reportingScope.description%",

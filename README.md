@@ -89,7 +89,12 @@ There are several settings you can configure to customize the behavior of this e
     <tr>
       <td>mypy-type-checker.preferDaemon</td>
       <td><code>true</code></td>
-      <td>(experimental) Whether the Mypy daemon (<code>dmypy</code>) will take precedence over <code>mypy</code> for type checking. Note: if <code>mypy-type-checker.reportingScope</code> is set to <code>workspace</code>, enabling the Mypy daemon will offer a faster type checking experience. This setting will be overridden if <code>mypy-type-checker.path</code> is set.
+      <td>(experimental) Whether the Mypy daemon (<code>dmypy</code>) will take precedence over <code>mypy</code> for type checking. Note: if <code>mypy-type-checker.reportingScope</code> is set to <code>workspace</code>, enabling the Mypy daemon will offer a faster type checking experience. This setting will be overridden if <code>mypy-type-checker.path</code> is set.</td>
+    </tr>
+    <tr>
+      <td>mypy-type-checker.daemonStatusFile</td>
+      <td><i>unset</i></td>
+      <td>Path to the Mypy daemon status file. Can be used to re-use an already running daemon. If unset, tracks daemon status internally.</td>
     </tr>
     <tr>
       <td>mypy-type-checker.ignorePatterns</td>

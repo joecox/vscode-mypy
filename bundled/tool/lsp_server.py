@@ -501,6 +501,7 @@ def _get_global_defaults():
         "extraPaths": GLOBAL_SETTINGS.get("extraPaths", []),
         "reportingScope": GLOBAL_SETTINGS.get("reportingScope", "file"),
         "preferDaemon": GLOBAL_SETTINGS.get("preferDaemon", True),
+        "daemonStatusFile": GLOBAL_SETTINGS.get("daemonStatusFile", None),
     }
 
 
